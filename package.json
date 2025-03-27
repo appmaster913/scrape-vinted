@@ -1,0 +1,19 @@
+{
+  "name": "vintedscrapper",
+  "version": "1.0.0",
+  "description": "grab some infos from vinted website!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mr.balourd",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.2.0"
+  },
+  "type": "module"
+}
